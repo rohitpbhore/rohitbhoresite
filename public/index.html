@@ -1,254 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>Ankit Chavan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-	
-    <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
-	<link href="css/template.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-	
-	<script type="text/javascript" src="js/scroll.js"></script>
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-	<script>
-		function scrollToElement(selector, time, verticalOffset) {
-    time = typeof(time) != 'undefined' ? time : 100;
-    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
-    element = $(selector);
-    offset = element.offset();
-    offsetTop = offset.top + verticalOffset;
-    $('html, body').animate({
-        scrollTop: offsetTop
-    }, time);
-	}
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	$('a.about').click(function () {
-    scrollToElement('#about', 1500, -300);
-	});
-	
-	$('a.resume').click(function () {
-    scrollToElement('#resume', 1500, -300);
-	});
-	
-	$('a.home-img').click(function () {
-    scrollToElement('#home-img', 1500, -300);
-	});
-	
-	$('a.contact').click(function () {
-    scrollToElement('#contact', 1500, -300);
-	});
-	</script>
-	
-	
-  </head>
-  <body>
-	
-    <!-- /.container -->
-	<div class="container">
-		<div id="home-img">
-	
-		<header>
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#home-img">Ankit Chavan</a>
-					</div>
+    <title>Stylish Portfolio Template for Bootstrap</title>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#about">About</a></li>
-							<li><a href="#resume">Resume</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</header>
-	
-		<section class="panel">
-			<div class="main jumbotron jumbotron-black ">
-				<h1>Front end developer.</h1>
-				<p>
-					Design to make perfect.
-				</p>
-			</div>
-		</section>
-		</div>
-		
-		<section id="divider1"></section>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-		<section id="about" data-speed="16" data-type="background">
-			<div class="text-centered">
-				<h1>Hello!<br>
-				I'm Ankit Anil Chavan</h1>
-				<p>
-					I live in Navi Mumbai, India.<br>
-				</p>
-			</div>
-			<div class="jumbotron jumbotron-black text-centered">
-				<div class="row">
-					<div class="showcase-item col-md-4">
-						<div class="showcase-item-box">
-							<img src="images/icons/png/cricket.png"/>
-							<p>I like to play Cricket.</p>
-						</div>
-					</div>
-					
-					<div class="showcase-item col-md-4">
-						<div class="showcase-item-box">
-							<img src="images/icons/png/camera3.png"/>
-							<p>I like Photography.</p>
-						</div>
-					</div>
-					
-					<div class="showcase-item col-md-4">
-						<div class="showcase-item-box">
-							<img src="images/icons/png/fstream.png"/>
-							<p>I like to listen Songs.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="text-centered">
-				<br>
-				<p>Wish me Happy B'day on <b>30th January</b></p>
-				<p>Marital Status: Single</p>
-			</div>
-		</section>
-		<section id="divider1"></section>
-		<section id="resume">
-			<div class="jumbotron">
+    <!-- Add custom CSS here -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
-				<p>Address- A1, Room No.8, Gharkul, Sector.15, Kharghar, Navi Mumbai- 410210.<br>
-				Contact- 7715837737.<br>
-				Email- ankit.11ch@gmail.com
-				</p>
-				<br>
-				<div class="resumeInfo">
-					<h4>Career Objective:</h4>
-					<hr>
-						<ul>
-							<li><p>I want to achieve excellence and success in my career.</p></li>
-						</ul>
-					<br>
-					<h4>Education Qualification:</h4>
-					<hr>
-						<ul>
-							<li>Year 2012-13: Bachelor of Science (Information Technology)(Mumbai University)</li>
-							<li>Year 2008-09: HSC(Maharashtra Board)</li>
-							<li>Year 2006-07: SSC(Maharashtra Board)</li>
-						</ul>
-						<br>
-					<h4>Professional Skills:</h4>
-					<hr>
-						<ul>
-							<li>Languages: C, C++, C# Programming</li>
-							<li>Certifications: Microsoft Dot Net Smart Professional course from Aptech Eduction Institute</li>
-							<li>Web Technologies: HTML5, CSS3, ASP, Javascript, jQuery, Ruby and rack and Git.</li>
-							<li>CMS: Wordpress</li>
-							<li>Database: SQL server 2008, MySQL</li>
-							<li>PAAS: heroku</li>
-						</ul>
-						<br>
-					<h4>Project</h4>
-					<hr>
-						<ol>
-							Currently working on:
-							<li>Project Name: <b>Website for <a href="http://www.shirgaon.com" target="_blank">Shirgaon</a> village.
-							<h6>URL: <b><a href="http://www.shirgaon.com" target="_blank">www.shirgaon.com</a><b></h6></b></li>
-							<br>
-							<ul>
-								<li>Technologies used: HTML5, CSS3, PHP</li>
-								<li>CMS: Wordpress</li>
-								<li>Database: MySQL</li>
-								<li>Server: Microsoft Server IIS 8</li><br>
-								<li>Project Summary: 
-									<p>Website about Shirgaon village located in Ratnagiri, Maharashtra.</p>
-								</li>
-							</ul>
-							<br>
-							<li>Project Name:<b> Windows Application for Class Management</b></li>
-							<br>
-							<ul>
-								<li>language of implementation: C#.net</li>
-								<li>Database: SQL Server 2008</li>
-								<li>Operating System: Windows Xp/07</li><br>
-								<li>Project Summary: 
-									<p>This application is made for Classes in order to have an effective storage and to make Paper-less work with an error free environment.</p>
-								</li>
-							</ul>
-						<br>
-					
-							<li>Project Name:<b> Course Finder Channel</b></li>
-							<br>
-							<ul>
-								<li>language of implementation: Asp.net</li>
-								<li>Database: SQL Server 2008</li>
-								<li>Operating System: Windows Xp/07</li><br>
-								<li>Project Summary: 
-									<p>This web application is made for getting information about Universities, Colleges and Courses.</p>
-								</li>
-							</ul>
-							
-						</ol>
-				
-				</div>
-			</div>
-		</section>
-		
-		<section id="divider1"></section>
-		
-		<section id="siteInfo" class="text-centered">
-			Technologies used to built this website: HTML5, CSS3, JavaScript.
-		</section>
-		<section id="contact" class="sroll-panel">
-			<div class="jumbotron jumbotron-black text-centered">
-				<h3>Mail me on: <span>ankit.11ch@gmail.com</span></h3>
-				<h3>Call Me: 7715837737</h3>
-				
-				<h3>Find me on:
-				<a href="https://www.facebook.com/ChavanAnkit1" target="_blank"><img src="images/icons/png/fb2.png" height="70px" width="70px"/></a></span>
-				<a href="http://twitter.com/ankitchavan1" target="_blank"><img src="images/icons/png/twitter.png" height="70px" width="70px"/></a>
-				<a href="http://linkedin.com/in/ankitchavan" target="_blank"><img src="images/icons/png/linkedin.png" height="70px" width="70px"/></a>
-				</h3>
-				<br>
-			<h2>Thank You.</h2>
-			</div>
-		<div footer class="mainFooter">
-			<p>Built by Ankit Chavan </p>
-		</div>	
-		</section>
-		
-	</div> 
+<body>
 
-	<!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="js/jquery.ui.touch-punch.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/flatui-checkbox.js"></script>
-    <script src="js/flatui-radio.js"></script>
-    <script src="js/jquery.tagsinput.js"></script>
-    <script src="js/jquery.placeholder.js"></script>
-  </body>
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a>
+            </li>
+            <li><a href="#top">Home</a>
+            </li>
+            <li><a href="#about">About</a>
+            </li>
+            <li><a href="#services">Services</a>
+            </li>
+            <li><a href="#portfolio">Portfolio</a>
+            </li>
+            <li><a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Side Menu -->
+
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div class="vert-text">
+            <h1>Start Bootstrap</h1>
+            <h3>
+                <em>We</em> Build Great Templates,
+                <em>You</em> Make Them Better</h3>
+            <a href="#about" class="btn btn-default btn-lg">Find Out More</a>
+        </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    <!-- Intro -->
+    <div id="about" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Subtle Sidebar is the Perfect Template for your Next Portfolio Website Project!</h2>
+                    <p class="lead">This template really has it all. It's up to you to customize it to your liking! It features some fresh photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Intro -->
+
+    <!-- Services -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Our Services</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2 text-center">
+                    <div class="service-item">
+                        <i class="service-icon fa fa-rocket"></i>
+                        <h4>Spacecraft Repair</h4>
+                        <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                        <i class="service-icon fa fa-magnet"></i>
+                        <h4>Problem Solving</h4>
+                        <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                        <i class="service-icon fa fa-shield"></i>
+                        <h4>Blacksmithing</h4>
+                        <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="service-item">
+                        <i class="service-icon fa fa-pencil"></i>
+                        <h4>Pencil Sharpening</h4>
+                        <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Services -->
+
+    <!-- Callout -->
+    <div class="callout">
+        <div class="vert-text">
+            <h1>A Dramatic Text Area</h1>
+        </div>
+    </div>
+    <!-- /Callout -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Our Work</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 text-center">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                        </a>
+                        <h4>Cityscape</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                        </a>
+                        <h4>Is That On Fire?</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 text-center">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                        </a>
+                        <h4>Stop Sign</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                        </a>
+                        <h4>Narrow Focus</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Call to Action -->
+    <div class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-default">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-primary">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Call to Action -->
+
+    <!-- Map -->
+    <div id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </div>
+    <!-- /Map -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <ul class="list-inline">
+                        <li><i class="fa fa-facebook fa-3x"></i>
+                        </li>
+                        <li><i class="fa fa-twitter fa-3x"></i>
+                        </li>
+                        <li><i class="fa fa-dribbble fa-3x"></i>
+                        </li>
+                    </ul>
+                    <div class="top-scroll">
+                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+                    </div>
+                    <hr>
+                    <p>Copyright &copy; Company 2013</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
 </html>
