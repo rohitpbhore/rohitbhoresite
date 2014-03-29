@@ -137,7 +137,7 @@ body {
   margin-bottom: 15px;
 }
 
-i.service-icon {
+/*i.service-icon {
   border: 3px solid #ffffff;
   border-radius: 50%;
   display: inline-block;
@@ -147,6 +147,32 @@ i.service-icon {
   line-height: 136px;
   vertical-align: middle;
   text-align: center;
+}*/
+.social{
+  width: 140px;
+  height: 140px;
+  display: block;
+  float: left;
+  /*width: 20%;*/
+  margin-right: 4%;
+  margin-left: 4%;
+}
+img.fb,img.gitgub{
+  /*background: url(../img/fb.png) no-repeat center center fixed;*/
+  width: 100%;
+
+}
+img.in{
+  /*background: url(../img/in.png) no-repeat center center fixed;width: 100%;*/
+  width: 100%;
+}
+img.twitter{
+  /*background: url(../img/twitter.png) no-repeat center center fixed;*/
+  width: 100%;
+}
+img.google{
+  /*background: url(../img/google.png) no-repeat center center fixed;*/
+  width: 100%;
 }
 
 /* Callout */
@@ -168,6 +194,9 @@ i.service-icon {
 
 .portfolio {
   padding: 50px 0;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
 }
 
 .portfolio-item {
