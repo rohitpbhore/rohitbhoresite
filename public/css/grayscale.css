@@ -37,13 +37,17 @@
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+/*    background: black;
+    height: 61px;
+    width: 60px;
+    border-radius: 60px;*/
 }
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    /*background-color: #000;*/
+    background-color: #000;
 }
 
 .navbar-brand {
@@ -91,6 +95,7 @@
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: #000;
     }
 
     .top-nav-collapse {
