@@ -140,13 +140,16 @@ body {
   width: 140px;
   height: 140px;
   display: block;
+  margin: auto;
+}
+.social_wrap{
+  /*width: 20%;*/
   float: left;
-  margin-right: 4%;
-  margin-left: 4%;
+  margin-right: 5%;
+  margin-left: 4.5%;
 }
 img.fb,img.gitgub{
   width: 100%;
-
 }
 img.in{
   width: 100%;
@@ -247,8 +250,9 @@ i.scroll:hover {
 .width_30{
   width: 30%;
 }
-
-
+.clear{
+  clear: both;
+}
 
 /* Responsive */
 
@@ -266,7 +270,7 @@ i.scroll:hover {
 	height: 75%;
   }
   .portfolio, #projects{
-    font-size: 13px;
+    font-size: 15px;
   }
   .portfolio h3, #projects h3{
     font-size: 15px;
@@ -280,7 +284,6 @@ i.scroll:hover {
   .follow_me{
     margin-left: 12%;
   }
-
 }
 
 @media (max-width: 468px) {
@@ -293,4 +296,8 @@ i.scroll:hover {
   .call-to-action h3{
     font-size: 18px;
   }
+  .width_30{
+    width: 60%;
+  }
 }
+
