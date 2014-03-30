@@ -128,8 +128,7 @@ body {
 /* Services */
 
 .services {
-  /*background: #7fbbda;*/
-  background: grey;
+  background: #7fbbda;
   padding: 50px 0;
   color: #ffffff;
 }
@@ -138,41 +137,25 @@ body {
   margin-bottom: 15px;
 }
 
-/*i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle;
-  text-align: center;
-}*/
 .social{
   width: 140px;
   height: 140px;
   display: block;
   float: left;
-  /*width: 20%;*/
   margin-right: 4%;
   margin-left: 4%;
 }
 img.fb,img.gitgub{
-  /*background: url(../img/fb.png) no-repeat center center fixed;*/
   width: 100%;
 
 }
 img.in{
-  /*background: url(../img/in.png) no-repeat center center fixed;width: 100%;*/
   width: 100%;
 }
 img.twitter{
-  /*background: url(../img/twitter.png) no-repeat center center fixed;*/
   width: 100%;
 }
 img.google{
-  /*background: url(../img/google.png) no-repeat center center fixed;*/
   width: 100%;
 }
 
@@ -183,7 +166,7 @@ img.google{
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/callout.jpg) no-repeat center center fixed;
+  background: url(../img/img5.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -198,22 +181,18 @@ img.google{
   width: 80%;
   margin: auto;
 }
-#portfolio
+.portfolio
 {
-
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  color: white;
+  font-size: 18px;
 }
 .project_container{
   width: 100%;
   color: white ;
   background: url(../img/img1.jpg) no-repeat center center fixed;
-  font-size: 16px;
+  font-size: 18px;
 }
-/*.portfolio{
-  background: url(../img/img4.jpg) no-repeat center center fixed;
-}*/
-/*#projects{
-
-}*/
 
 .portfolio-item {
   margin-bottom: 25px;
@@ -222,7 +201,6 @@ img.google{
 .img-portfolio {
   margin: 0 auto;
 }
-
 
 /* Call to Action */
 
@@ -267,13 +245,15 @@ i.scroll:hover {
 .container{
   width:100%;
 }
+.width_30{
+  width: 30%;
+}
 
 /* Responsive */
 
 @media (max-width: 768px) {
-
   .header {
-	background: url(../img/bg.jpg) no-repeat center center scroll;
+	background: url(../img/bg1.png) no-repeat center center scroll;
   background-color: gray;
   }
 
@@ -285,5 +265,26 @@ i.scroll:hover {
   .map {
 	height: 75%;
   }
+  .portfolio,#projects{
+    font-size: 13px;
+  }
+  .portfolio h3,#projects h3{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .follow_me{
+    margin-left: 12%;
+  }
+}
 
+@media (max-width: 468px) {
+  .follow_me{
+    margin-left: 20%;
+  }
+  .call-to-action h2{
+    font-size: 22px;
+  }
+  .call-to-action h3{
+    font-size: 18px;
+  }
 }
