@@ -3796,6 +3796,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -3817,6 +3818,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
+  }
+  .navbar-nav > li > a, .navbar-header .navbar-brand span, .fa {
+    color: white !important;
   }
 }
 @media (min-width: 768px) {
@@ -5827,5 +5831,9 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+.portfolio h3, #projects h3{
+  font-weight: bold !important;
 }
 /*# sourceMappingURL=bootstrap.css.map */

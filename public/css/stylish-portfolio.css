@@ -116,7 +116,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: gray;
 }
 
 /* Intro */
@@ -249,32 +248,39 @@ i.scroll:hover {
   width: 30%;
 }
 
+
+
 /* Responsive */
 
 @media (max-width: 768px) {
   .header {
 	background: url(../img/bg1.png) no-repeat center center scroll;
-  background-color: gray;
+  background-size: 80pc;
   }
 
   .callout {
 	background: url(../img/callout.jpg) no-repeat center center scroll;
-  background-color: gray;
   }
 
   .map {
 	height: 75%;
   }
-  .portfolio,#projects{
+  .portfolio, #projects{
     font-size: 13px;
   }
-  .portfolio h3,#projects h3{
+  .portfolio h3, #projects h3{
     font-size: 15px;
-    font-weight: bold;
+    font-weight: bold !important;
   }
+
+  .portfolio tr, #projects tr{
+    margin-top: 10px;
+  }
+
   .follow_me{
     margin-left: 12%;
   }
+
 }
 
 @media (max-width: 468px) {
