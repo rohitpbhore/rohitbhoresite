@@ -30,5 +30,5 @@ and go to http://localhost:9292
 
 #### References
 
-https://devcenter.heroku.com/articles/static-sites-ruby
+https://devcenter.heroku.com/articles/static-sites-ruby<br/>
 http://startbootstrap.com
