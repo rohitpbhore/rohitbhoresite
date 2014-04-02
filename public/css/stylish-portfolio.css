@@ -194,6 +194,45 @@ img.google{
   background: url(../img/img1.jpg) no-repeat center center fixed;
   font-size: 18px;
 }
+#my_work{
+  width: 100%;
+  color: white ;
+  font-size: 18px;
+  height: 100%;
+}
+#my_work img
+{
+  width: 100%;
+}
+#my_work .img_container
+{
+  display: block;
+  float: left;
+  width: 46%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#my_work .img_container a
+{
+  width: 400px;
+  height: 250px;
+  float: left
+}
+
+#my_work .img_container .content{
+  float: left;
+  color: black;
+  /*width: 400px;*/
+  text-align: justify;
+}
+
+.my_work_cointainers{
+  /*width: 800*/
+}
+.width_50{
+  width: 50%;
+}
 
 .portfolio-item {
   margin-bottom: 25px;
@@ -262,7 +301,7 @@ i.scroll:hover {
   background-size: cover;
   display: table;
   background: url(../img/new7.png) no-repeat center center fixed;*/
-  background: url(../img/new7.png) no-repeat center center fixed;
+  /*background: url(../img/new7.png) no-repeat center center fixed;*/
   width: 100%;
   height: 100%;
 }
