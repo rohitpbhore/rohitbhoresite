@@ -191,7 +191,7 @@ img.google{
 }
 .portfolio
 {
-  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background: url(../img/img1.jpg) no-repeat center center fixed;
   color: white;
   font-size: 18px;
 }
@@ -205,14 +205,27 @@ img.google{
   width: 100%;
   color: white ;
   font-size: 18px;
-  height: 70%;
-  background: #4df;
   padding: 50px 0;
 }
+
+.more_work{
+  color: black;
+  margin-left: 2%;
+  margin-top: 26px;
+}
+
+#my_work{
+  background: #EDE7D8;
+}
+
+#experience{
+  background-color:yellow;
+}
+
 #my_work img,#experience img
 {
   width: 100%;
-
+  height: 100%;
 }
 #my_work .img_container, #experience .img_container
 {
@@ -225,18 +238,20 @@ img.google{
 
 #my_work .img_container a,#experience .img_container a
 {
-  width: 400px;
-  height: 100%;
+  /*width: 400px;*/
+  width: 100%;
+  /*height: 100%;*/
+
   float: left;
 }
 
 #my_work .img_container .images, #experience .img_container .images
 {
-  margin-right: 20px;
   margin-bottom: 20px;
+  height: 360px;
 }
 #my_work .img_container .content, #experience .img_container .content{
-  /*float: left;*/
+  float: left;
   color: black;
   /*width: 400px;*/
   text-align: justify;
@@ -315,7 +330,7 @@ i.scroll:hover {
   background: url(../img/new7.png) no-repeat center center fixed;*/
   /*background: url(../img/new7.png) no-repeat center center fixed;*/
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
 }
 #bottom_banner img{
   width: 100%;
@@ -365,5 +380,9 @@ i.scroll:hover {
   .width_30{
     width: 60%;
   }
+  #my_work,#experience{
+    font-size: 14px;
+  }
+
 }
 
