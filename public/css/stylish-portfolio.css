@@ -432,6 +432,10 @@ i.scroll:hover {
   .map {
     height: 300px;
   }
+    #my_work .img_container, #experience .img_container
+  {
+    width: 98%;
+  }
 }
 
 @media (max-width: 468px) {
@@ -453,12 +457,5 @@ i.scroll:hover {
     height: 170px;
     width: 300px;
   }
-
-  #my_work .img_container, #experience .img_container
-  {
-    width: 98%;
-  }
-
-
 }
 
