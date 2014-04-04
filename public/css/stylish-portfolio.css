@@ -275,6 +275,7 @@ body {
 
 #my_work{
   background: #EDE7D8;
+  background: url(../img/two.png) center center fixed;
 }
 
 #experience{
@@ -284,27 +285,32 @@ body {
 #my_work img, #experience img
 {
   width: 100%;
-  /*height: 100%;*/
+  height: 100%;
 }
 #my_work .img_container, #experience .img_container
 {
   display: block;
   float: left;
-  width: 46%;
-  margin-right: 2%;
-  margin-left: 2%;
+  width: 35%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 #my_work .img_container a,#experience .img_container a
 {
-  width: 100%;
+  /*width: 100%;*/
   float: left;
 }
 
 #my_work .img_container .images, #experience .img_container .images
 {
   margin-bottom: 20px;
-  height: 390px;
+  /*height: 390px;*/
+  height: 233px;
+  width: 382px;
+  margin: auto;
+  margin-left: 6%;
+  margin-bottom: 3%
 }
 #my_work .img_container .content, #experience .img_container .content{
   float: left;
@@ -398,7 +404,7 @@ i.scroll:hover {
 
    #my_work .img_container .images, #experience .img_container .images
   {
-    margin-bottom: 0px;
+    /*margin-bottom: 0px;*/
     height: 190px;
   }
   .vert-text h1{
@@ -411,6 +417,20 @@ i.scroll:hover {
   #contact .social{
     height: 100px;
     width: 100px;
+  }
+  .project_blog, .company_pfb{
+    clear: both;
+    margin-top: 8%;
+  }
+  .header{
+    height: 67%;
+  }
+  .tagline{
+    height: 250px;
+  }
+
+  .map {
+    height: 300px;
   }
 }
 
@@ -428,8 +448,17 @@ i.scroll:hover {
 
   #my_work .img_container .images, #experience .img_container .images
   {
-    margin-bottom: 0px;
-    height: 83px;
+    /*margin-bottom: 0px;*/
+    /*height: 105px;*/
+    height: 170px;
+    width: 300px;
   }
+
+  #my_work .img_container, #experience .img_container
+  {
+    width: 98%;
+  }
+
+
 }
 
