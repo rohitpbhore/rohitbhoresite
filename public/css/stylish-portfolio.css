@@ -131,6 +131,9 @@ body {
   width: 100%;
 }*/
 
+#contact img{
+  width: 100%;
+}
 /* Services */
 
 .services {
@@ -225,7 +228,7 @@ img.google{
 #my_work img,#experience img
 {
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
 }
 #my_work .img_container, #experience .img_container
 {
@@ -248,7 +251,7 @@ img.google{
 #my_work .img_container .images, #experience .img_container .images
 {
   margin-bottom: 20px;
-  height: 360px;
+  height: 390px;
 }
 #my_work .img_container .content, #experience .img_container .content{
   float: left;
@@ -365,6 +368,27 @@ i.scroll:hover {
   .follow_me{
     margin-left: 12%;
   }
+
+  #my_work,#experience{
+    font-size: 15px;
+  }
+
+   #my_work .img_container .images, #experience .img_container .images
+  {
+    margin-bottom: 0px;
+    height: 190px;
+  }
+  .vert-text h1{
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 19px;
+  }
+
+  #contact .social{
+    height: 100px;
+    width: 100px;
+  }
 }
 
 @media (max-width: 468px) {
@@ -383,6 +407,13 @@ i.scroll:hover {
   #my_work,#experience{
     font-size: 14px;
   }
+
+  #my_work .img_container .images, #experience .img_container .images
+  {
+    margin-bottom: 0px;
+    height: 110px;
+  }
+
 
 }
 
