@@ -428,7 +428,7 @@ i.scroll:hover {
   {
     width: 95%;
   }
- .navbar-custom.top-nav-collapse h3{
+ .navbar h3{
       display: none;
   }
 
