@@ -128,13 +128,14 @@ body {
 }
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background: whitesmoke;
     }
 
     .top-nav-collapse {
@@ -143,11 +144,15 @@ body {
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        /*border-bottom: 1px solid rgba(255,255,255,.3);*/
         color: white !important;
     }
     .navbar-custom.top-nav-collapse a{
         color: white !important;
+    }
+
+    .navbar-custom.top-nav-collapse h3{
+        display: none;
     }
 
 }
@@ -189,13 +194,17 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/new6.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
+  /*background: url(../img/new7.png) no-repeat center center;*/
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  /*margin-top: 90px;*/
 }
-
+.subtitle h3{
+  font-size: 14px;
+  margin-top: 7px;
+}
 /* Intro */
 .intro {
   padding: 50px 0;
@@ -221,8 +230,9 @@ body {
 }
 .social_wrap{
   float: left;
-  margin-right: 5%;
-  margin-left: 4.5%;
+/*  margin-right: 5%;
+  margin-left: 4.5%;*/
+  width: 20%;
 }
 
 .width_100{
@@ -291,31 +301,23 @@ body {
 {
   display: block;
   float: left;
-  width: 35%;
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
-#my_work .img_container a,#experience .img_container a
-{
-  /*width: 100%;*/
-  float: left;
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 46%;
 }
 
 #my_work .img_container .images, #experience .img_container .images
 {
   margin-bottom: 20px;
-  /*height: 390px;*/
-  height: 233px;
+  height: 225px;
   width: 382px;
   margin: auto;
-  margin-left: 6%;
-  margin-bottom: 3%
+  display: block;
 }
 #my_work .img_container .content, #experience .img_container .content{
-  float: left;
   color: black;
   text-align: justify;
+  margin-top: 20px;
 }
 
 .width_50{
@@ -371,12 +373,11 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
   .header {
-	background: url(../img/new6.png) no-repeat center center scroll;
-  background-size: 40pc;
+    background-size: 40pc;
   }
 
-  .tagline {
-	background: url(../img/img5.jpg) no-repeat center center scroll;
+  .tagline,.portfolio {
+    background-size: 40pc;
   }
 
   .map {
@@ -394,19 +395,10 @@ i.scroll:hover {
     margin-top: 10px;
   }
 
-  .follow_me{
-    margin-left: 12%;
-  }
-
   #my_work,#experience{
     font-size: 15px;
   }
 
-   #my_work .img_container .images, #experience .img_container .images
-  {
-    /*margin-bottom: 0px;*/
-    height: 190px;
-  }
   .vert-text h1{
     font-size: 2.5em;
   }
@@ -423,7 +415,7 @@ i.scroll:hover {
     margin-top: 8%;
   }
   .header{
-    height: 67%;
+    height: 85%;
   }
   .tagline{
     height: 250px;
@@ -434,14 +426,11 @@ i.scroll:hover {
   }
     #my_work .img_container, #experience .img_container
   {
-    width: 98%;
+    width: 95%;
   }
 }
 
 @media (max-width: 468px) {
-  .follow_me{
-    margin-left: 16%;
-  }
 
   .width_30{
     width: 60%;
@@ -450,12 +439,8 @@ i.scroll:hover {
     font-size: 14px;
   }
 
-  #my_work .img_container .images, #experience .img_container .images
-  {
-    /*margin-bottom: 0px;*/
-    /*height: 105px;*/
-    height: 170px;
-    width: 300px;
+  .social_wrap{
+    width: 50%;
   }
 }
 
