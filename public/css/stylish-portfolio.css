@@ -144,7 +144,6 @@ body {
     }
 
     .navbar-custom.top-nav-collapse {
-        /*border-bottom: 1px solid rgba(255,255,255,.3);*/
         color: white !important;
     }
     .navbar-custom.top-nav-collapse a{
@@ -194,12 +193,6 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  /*background: url(../img/new7.png) no-repeat center center;*/
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-  /*margin-top: 90px;*/
 }
 .subtitle h3{
   font-size: 14px;
@@ -230,8 +223,6 @@ body {
 }
 .social_wrap{
   float: left;
-/*  margin-right: 5%;
-  margin-left: 4.5%;*/
   width: 20%;
 }
 
@@ -281,6 +272,7 @@ body {
   color: black;
   margin-left: 2%;
   margin-top: 26px;
+  overflow: hidden;
 }
 
 #my_work{
@@ -309,8 +301,8 @@ body {
 #my_work .img_container .images, #experience .img_container .images
 {
   margin-bottom: 20px;
-  height: 225px;
-  width: 382px;
+  height: 360px;
+  width: 100%;
   margin: auto;
   display: block;
 }
@@ -371,15 +363,30 @@ i.scroll:hover {
 }
 /* Responsive */
 
+@media (max-width: 940px) {
+.subtitle h3
+  {
+   font-size: 11px;
+  }
+  .nav > li > a{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  #my_work .img_container, #experience .img_container
+  {
+    width: 95%;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     background-size: 40pc;
   }
 
-  .tagline,.portfolio {
+/*  .tagline,.portfolio {
     background-size: 40pc;
-  }
-
+  }*/
   .map {
 	 height: 75%;
   }
@@ -395,7 +402,7 @@ i.scroll:hover {
     margin-top: 10px;
   }
 
-  #my_work,#experience{
+  #my_work, #experience{
     font-size: 15px;
   }
 
@@ -424,22 +431,21 @@ i.scroll:hover {
   .tagline{
     height: 250px;
   }
-
   .map {
     height: 300px;
   }
-    #my_work .img_container, #experience .img_container
-  {
-    width: 95%;
-  }
- .navbar h3{
+
+  .navbar-custom.top-nav-collapse h3{
       display: none;
+  }
+  .social_wrap{
+    width: 50%;
   }
 
   #my_work .img_container .images, #experience .img_container .images
   {
     width: 100%;
-    height: 145px;
+    height: 350px;
   }
   #portfolio, #projects {
     width: 95%;
@@ -447,19 +453,36 @@ i.scroll:hover {
   #intro{
     padding: 10px 0;
   }
+  .subtitle h3
+  {
+   display: none;
+  }
 }
 
 @media (max-width: 468px) {
-
   .width_30{
     width: 60%;
   }
   #my_work,#experience{
     font-size: 14px;
   }
-
-  .social_wrap{
-    width: 50%;
+  .nav > li > a{
+    padding: 10px 11px;
   }
 }
 
+
+@media (max-width: 405px) {
+  #my_work .img_container .images, #experience .img_container .images
+  {
+    height: 125px;
+    width: 282px;
+  }
+}
+@media (max-width: 303px) {
+  #my_work .img_container .images, #experience .img_container .images
+  {
+    height: 125px;
+    width: 225px;
+  }
+}

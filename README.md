@@ -1,4 +1,4 @@
-# Simple Single Page Portfolio Website
+# Single Page Portfolio Website
 
 Static Website built on HTML5, CSS3, jQuery, Javascript on Ruby and Rack framework deployed on Heroku.
 
@@ -24,6 +24,7 @@ $ git clone https://github.com/rohitpbhore/rohitbhoresite.git
 Start the server
 
 ```ruby
+$ bundle install
 $ rackup
 ```
 and go to http://localhost:9292
