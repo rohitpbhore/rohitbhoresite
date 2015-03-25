@@ -1,385 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GEEK - Rohit Bhore</title>
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
+  <!-- Main Style -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  
+  <!-- Responsive Style -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  
+  <!--Fonts-->
+  <link rel="stylesheet" media="screen" href="fonts/font-awesome/font-awesome.min.css">
 
-    <title>Rohit Bhore</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-50595889-1', 'rohitbhore.com');
-      ga('send', 'pageview');
-    </script>
+  <!-- Extras -->
+  <link rel="stylesheet" type="text/css" href="extras/animate.css">
+  <link rel="stylesheet" type="text/css" href="extras/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="extras/owl/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="extras/owl/owl.theme.css">
+  <link rel="stylesheet" type="text/css" href="extras/owl/owl.transitions.css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+              <![endif]-->
 </head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand" href="#page-top">
-                <i class="fa fa-play-circle"></i>  <span class="light">Rohit Bhore</span>
-                <div class="subtitle"><h3><em>RoR</em> Developer,
-                <em>Web UI</em> Developer.</h3></div>
-            </a>
+<body>
+	 
+  <!-- Header Section Start -->
+  <div id="header">
+    <div class="container">
+      <div class="col-md-12 top-header">
+        <div class="logo-menu">
+          <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
+            <a href="/"><img src="img/logo.png" alt="logo"></a>
+          </div> 
+          <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
+            <div id="menu" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+              <span>menu</span>
+            </div> 
+          </div> 
         </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-              <li class="hidden">
-                  <a href="#page-top"></a>
-              </li>
-              <li class="page-scroll">
-                  <a href="#about">About</a>
-              </li>
-              <li class="page-scroll">
-                  <a href="#portfolio">Portfolio</a>
-              </li>
-            <!--   <li class="page-scroll">
-                  <a href="#projects">Projects & Experience</a>
-              </li> -->
-              <li class="page-scroll">
-                  <a href="#my_work">My Work</a>
-              </li>
-              <li class="page-scroll">
-                  <a href="#experience">Experience</a>
-              </li>
-              <li class="page-scroll">
-                  <a href="#contact">Contact</a>
-              </li>
+        <div class="sidebar-nav">
+          <!-- navigation start -->
+          <div class="navmenu navmenu-default navmenu-fixed-right offcanvas" style="" id="navigation">
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+            <ul class="nav navmenu-nav">
+              <li class="active"><a href="#header">Home</a></li>
+              <li><a href="#works">Portfolio</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#feedback">Hire/Contact Me</a></li>
             </ul>
           </div>
-            <!-- /.navbar-collapse -->
+          <!-- navigation End -->
+        </div>     
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="banner text-center">
+            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Rohit Bhore</h1>
+            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Software Engineer & GEEK ;)</h2>
+            <!-- <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
+            <a href="#" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a> -->
+            <div class="scroll">
+              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
-      <!-- <div class="vert-text">
-        <h1>Rohit Bhore</h1>
-        <h3>
-          <em>RoR</em> Developer,
-          <em>Web UI</em> Developer.</h3>
-      </div> -->
-      <img class="" src="img/new7.png" alt="rohit bhore" style="width: 100%;height: 100%;"/>
+        </div>
+      </div>
     </div>
-    <!-- /Full Page Image Header Area -->
+  </div>
+  <!-- Header Section End -->
 
-    <!-- Intro -->
-    <div id="about" class="intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h2>I doN't haVE tiMe tO hAte tHosE wHo hAtE mE. .I'm buSy iN loVinG mySelF</h2>
-              <br/><h2><i>Wish happy birthday on <b>26th November</b></i></h2>
-              <br/>
-              <h3>Permanent Address: At/p-Samdoli, Dist-Sangli, Taluka-Miraj, Maharashtra, 416427</h3>
+  <!-- Work Section Start -->
+  <section id="works">
+    <div class="container">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Photos</span></h1>
+        <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
+          <div class="large">
+            <img src="img/rohit3.jpg" alt="">
+            <div class="overlay">
+              <a href="img/rohit3.jpg" data-lightbox="img1"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+          <div class="grid-box">
+            <img src="img/rohit4.jpg" alt="">
+            <div class="overlay">
+               <a href="img/rohit4.jpg" data-lightbox="img2"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+          <div class="grid-box">
+            <img src="img/rohit7.jpg" alt="">
+            <div class="overlay">
+               <a href="img/rohit7.jpg" data-lightbox="img3"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
+          <div class="grid-box large">
+            <img src="img/rohit-bg2.jpg" alt="">
+            <div class="overlay">
+               <a href="img/rohit-bg2.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+          <div class="grid-box">
+            <img src="img/rohit6.jpg" alt="">
+            <div class="overlay">
+               <a href="img/rohit6.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+          <div class="browse-box">
+            <div class="more">
+              <a href="https://www.facebook.com/rohitpbhore"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- /Intro -->
+  </section>
+  <!-- Work Section End  -->
 
-    <!-- tagline -->
-    <div class="tagline">
-      <div class="vert-text">
-        <h1><i>Coding is my soul</i></h1>
-      </div>
-    </div>
-    <!-- /tagline -->
-
-    <!-- Portfolio -->
-<div class="portfolio">
-  <div id="portfolio">
+  <!-- Testimonial Section Start -->
+  <section id="testimonial">
     <div class="container">
-      <h3>BHORE ROHIT PRAKASH.</h3>
-
-      <table>
-         <tr>
-          <td style="width:40%;">Call me on</td>
-          <td>: 09766140085</td>
-        </tr>
-        <tr>
-          <td style="width:40%;">Email Id</td><br/>
-          <td>: hello@rohitpbhore.com</td>
-        </tr>
-      </table>
-
-      <br/>
-    <!--   <p>1 year 3 months of experience in UI  Development, Enhancement & Maintenance on Ruby on Rails. Experience In Cloud Computing,  Agile Methodology and SDLC, usags of Project Management Tools.</p> -->
-
-      <h3>TECHNICAL EXPERTISE</h3>
-      <table>
-        <tr>
-          <td class="width_30">Technologies</td>
-          <td>: Ruby On Rails, Ajax,  JQuery, Javascript, Backbone, HTML5, CSS3, HAML, Sass, LESS, Coffee-Script</td>
-        </tr>
-        <tr>
-          <td>Database</td>
-          <td>: MY-SQL, Posgres SQL</td>
-        </tr>
-        <tr>
-          <td>Version Control</td>
-          <td>: GIT</td>
-        </tr>
-        <tr>
-          <td>IDEs</td>
-          <td>: Sublime text editor, Visual Studio</td>
-        </tr>
-        <tr>
-          <td>Application server/ Webserver</td>
-          <td>: Phusion Passenger, Webrick, Nginx, Apache, Unicorn</td>
-        </tr>
-        <tr>
-          <td>Project Management tools</td>
-          <td>: Redmine, Pivotal Tracker, Basecamp, Github, Gitlab</td>
-        </tr>
-
-        <tr>
-          <td>Frameworks</td>
-          <td>:Twitter Bootstrap and Compass.</td>
-        </tr>
-        <tr>
-          <td>Operating Systems</td>
-          <td>:Linux (Ubuntu), Windows, XP/Vista</td>
-        </tr>
-        <tr>
-          <td>CMS</td>
-          <td>: Wordpress</td>
-        </tr>
-      </table>
-      <br/>
-      <h3>EDUCATIONAL QUALIFICATION</h3>
-      <ul>
-        <li>Year 2012-13: Master of Computer Applications(Mumbai University)</li>
-        <li>Year 2007-10: Bachelor of Computer Applications(Shivaji University)</li>
-        <li>Year 2006-07: HSC(Pune Board)</li>
-        <li>Year 2004-05: SSC(Pune Board)</li>
-      </ul><br/>
-    </div>
-  </div>
-</div>
-<!-- <div class='project_container'>
-  <div id="projects"> -->
-<!--     <h3>PROFESSIONAL SUMMARY</h3>
-    <ul>
-      <li>10 months of experience in Ruby on Rails, Nginx, Passenger, Development, Enhancement & Maintenance.</li>
-      <li>6 months of experience in UI and Wordpress Development.</li>
-      <li>Project and Product development process experience, including project management techniques like Agile Project Management, Scrum etc.</li>
-      <li>Interaction with foreign clients.</li>
-      <li>Team player with communication and analytical skills.</li>
-      <li>Developed and deployed(on Heroku) sample blog application on Rails 4 and Twitter bootstrap framework, Rspec, Devise, Jquery Data table, Ajax and Simple form and Action Mailer.<br/>
-    https://github.com/rohitpbhore/sample_blog_app</li>
-      <li>Deployed(on Heroku) Static Website bootstrap template on Ruby and Rack framework deployed on Heroku.<br/>
-    https://github.com/rohitpbhore/rohitbhoresite</li>
-    </ul>
-    <br/> -->
-
-    <!--   <h4><b>Project: Nest4less</b></h4>
-      <p>
-      Through nest4less we can invite your contacts to find significant home related savings and guidance on the nest4less network. Lot of agents, vendors and clients are connected through nest4less network to share their discounts on coupons to make business. Different roles of user and their connectivity and sharing of coupons are maintained on site.</p>
-      <br/>
-      Responsibilities
-      <p>Involved in designing, development, testing, Implementation of Application and deployment of application.</p>
-
-      <table>
-          <tr>
-              <td class="width_30">Role</td>
-              <td>: Developer</td>
-          </tr>
-          <tr>
-              <td>Technologies</td>
-              <td>: Ruby on Rails, addthis and Heroku</td>
-          </tr>
-          <tr>
-              <td>Servers</td>
-              <td>: Nginx, Phusion Passenger</td>
-          </tr>
-          <tr>
-              <td>URL</td>
-              <td>: http://nest4less.com</td>
-          </tr>
-          <tr>
-              <td>Database</td>
-              <td>: Postgres</td>
-          </tr>
-          <tr>
-              <td>Company Name</td>
-              <td>: Icicle Technology Private Limited. (Current)</td>
-          </tr>
-      </table>
-
-      <br/><br/>
-
-      <h4><b>Project: RevenueGrader</b></h4>
-      <p>Employment details survey.</p>
-      Responsibilities
-      <p>Involved in designing, development, testing, Implementation of Application and deployment of application.</p>
-      <table>
-          <tr>
-              <td class="width_30">Role</td>
-              <td>: Developer</td>
-          </tr>
-          <tr>
-              <td>Technologies</td>
-              <td>: Ruby on Rails, Heroku</td>
-          </tr>
-          <tr>
-              <td>Servers</td>
-              <td>: Nginx, Phusion Passenger</td>
-          </tr>
-          <tr>
-              <td>Database</td>
-              <td>: Postgres</td>
-          </tr>
-          <tr>
-              <td>URL</td>
-              <td>: http://revenuegrader.com</td>
-          </tr>
-          <tr>
-              <td>Company Name</td>
-              <td>:Icicle Technology Private Limited. (Current)</td>
-          </tr>
-      </table>
-      <br/><br/> -->
-      <!-- <h4><b>Company: PFB Worldwide</b></h4>
-      <p>Six months working experience in <b>PFB Worldwide</b> from January to June 2013 as UI and Wodpress. Designed and developed following websites by using technologies Wordpress, HTML, CSS3 and JQuery.</p>
-      <ul>
-        <li>The Barefoot Fest<br/>http://www.thebarefootfest.com</li>
-        <li>People for Brands<br/>https://www.pfb.co.in/</li>
-        <li>The Loft Asia<br/>https://www.theloftasia.com/</li>
-        <li>BecomRails 4e Shakespeare<br/>https://www.becomeshakespeare.com</li>
-      </ul>
-    </div>
-</div> -->
-
-  <div id="my_work">
-    <!-- <div class="my_work_cointainers"> -->
-      <div class="img_container">
-        <a href="www.rohitblog.herokuapp.com" taRget="_blank" class="images"><img class="" src="img/blog.png" alt="blog_app" title="blog_app"/></a>
-        <div class="content">
-          <p>Developed and deployed(on Heroku) sample blog application on Rails 4 and Twitter bootstrap framework, Rspec, Devise, Jquery Data table, Ajax and Simple form and Action Mailer.<br/>
-            <a href="https://github.com/rohitpbhore/sample_blog_app">Github url</a>
-          </p>
-        </div>
-      </div>
-      <div class="img_container project_blog">
-        <a href="www.rohitbhore.com" target="_blank" class="images"><img src="img/rohitbhore.png" alt="rohitbhotre_site" title="rohitbhotre_site" /></a>
-        <div class="content">
-          <p>Simple Single Page Portfolio Website built on HTML5, CSS3, jQuery, Javascript on Ruby and Rack framework deployed on Heroku. Built using <a href="http://startbootstrap.com" target="_blank">STARTBOOTSTRAP</a> templates.</p>
-
-          <p>STARTBOOTSTRAP is an open source UI KIT based on Twitter Bootstrap 3 css framework. It provides a faster, easier and less repetitive way for web developers to create elegant web app.<br/>
-            <a href="https://github.com/rohitpbhore/rohitbhoresite">Github url</a>
-          </p>
-        </div>
-      </div>
-
-    <div style="clear:both"></div>
-
-      <div class="more_work">
-        <p>Designed and developed following websites by using technologies Wordpress, HTML, CSS3, JQuery and Wodpress.</p>
-        <ul>
-          <li>The Barefoot Fest<br/>http://www.thebarefootfest.com</li>
-          <li>People for Brands<br/>https://www.pfb.co.in/</li>
-          <li>The Loft Asia<br/>https://www.theloftasia.com/</li>
-          <li>BecomRails 4e Shakespeare<br/>https://www.becomeshakespeare.com</li>
-        </ul>
-        <br/>
-        Written a Blog on <a href="http://rohitbhore.wordpress.com/2014/02/10/feature-spec/" target="_blank">Integration test with RSpec and Capybara</a>
-      </div>
-    <!-- </div> -->
-  </div>
-
-<div style="clear:both"></div>
-
-   <div id="experience" >
-    <div class="experience_cointainers">
-      <div class="img_container">
-        <a href="http://www.icicletech.com/" taRget="_blank" class="images"><img class="" src="img/icicle.png" alt="icicle" title="icicle" /></a>
-        <div class="content">
-          <p>Working as <b>RoR Developer</b> from June 2013 to till date at Icicle. <b>Icicle Technologies</b> builds Web & Mobile products for Startups, Brands, Digital Agencies and Enterprises, helping in bringing their ideas to life.</p>
-        </div>
-      </div>
-      <div class="img_container company_pfb">
-        <a href="http://pfbworldwide.com/" target="_blank" class="images"><img src="img/pfb.png" alt="pfbworldwide" title="pfbworldwide" /></a>
-        <div class="content">
-          <p>Worked as <b>Web Developer</b> from Jan 2013 to June 2013 at PFB. <b>PFB Worldwide</b> is a global company focused on Strategy, Design and Technology.</p>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-    </div>
-  </div>
-<div style="clear:both"></div>
-    <!-- contact -->
-    <div id="contact" class="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Follow Me On</h2>
-                    <hr>
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Philosophy of<br><span>life</span></h1>
+        <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+            <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <blockquote>
+                <div class="commant">
+                  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="claint">
+                      <img src="img/rohit1.jpg" alt="">
+                    </div>
+                    <span class="quote"><i class="fa fa-quote-left"></i></span>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <div class="info">
+                      <p>I doN't haVE tiMe tO hAte tHosE wHo hAtE mE. I'm buSy iN loVinG mySelF.</p>
+                      <h4>Rohit Bhore</h4>
+                    </div>
+                  </div>
                 </div>
+              </blockquote>
             </div>
-            <div class="row follow_me">
-              <div class="social_wrap">
-                <a href="https://www.facebook.com/rohitpbhore" target="_blank" class="social">
-                  <img class="fb width_100" src="img/fb.png" alt="facebook" title="facebook" />
-                </a>
-              </div>
-              <div class="social_wrap">
-                <a href="https://twitter.com/rohitbhore" target="_blank" class="social">
-                  <img class="twitter width_100" src="img/twitter.png" alt="twitter" title="twitter" />
-                </a>
-              </div>
-              <div class="social_wrap">
-                <a href="http://www.linkedin.com/profile/view?id=144217268&trk=nav_responsive_tab_profile" target="_blank" class="social">
-                  <img class="in width_100" src="img/in.png" alt="linkedin" title="linkedin" />
-                </a>
-              </div>
-              <div class="social_wrap">
-                <a href="https://plus.google.com/+RohitBhore" target="_blank" class="social">
-                  <img class="google width_100" src="img/google.png" alt="google" title="google" />
-                </a>
-              </div>
-              <div class="social_wrap">
-                <a href="https://github.com/rohitpbhore" target="_blank" class="social">
-                  <img class="gitgub width_100" src="img/github.png" alt="github" title="github" />
-                </a>
-              </div>
+
+            <div class="item">
+              <blockquote>
+                <div class="commant">
+                  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="claint">
+                      <img src="img/rohit8.jpg" alt="">
+                    </div>
+                    <span class="quote"><i class="fa fa-quote-left"></i></span>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <div class="info">
+                      <p>Wish happy birthday on 26th November</p>
+                    </div>
+                  </div>
+                </div>
+              </blockquote>
             </div>
+            <div class="item">
+              <blockquote>
+                <div class="commant">
+                  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="claint">
+                      <img src="img/rohit2.jpg" alt="">
+                    </div>
+                    <span class="quote"><i class="fa fa-quote-left"></i></span>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <div class="info">
+                      <p>I doN't haVE tiMe tO hAte tHosE wHo hAtE mE. I'm buSy iN loVinG mySelF</p>
+                    </div>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- /contact -->
+  </section>
+  <!-- Testimonial Section End -->
 
-    <!-- Map -->
-    <div  class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=hallmark+business+plaza,+Mumbai-+400051&amp;aq=&amp;sll=19.062756,72.854502&amp;sspn=0.048674,0.084543&amp;g=Mumbai-+400051&amp;ie=UTF8&amp;hq=hallmark+business+plaza,&amp;hnear=400051,+India&amp;ll=19.060698,72.852091&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=lyrftr:unknown,9018169340086687708,,&amp;output=embed"></iframe><br />
-      <br />
+  <!-- Clients Section Start -->
+ <!--  <section id="clients">
+    <div class="container">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Valuable <br><span>Clients</span></h1>
+        <div id="clients-carousel" class="owl-carousel owl-theme">
+          <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+            <a href="#"><img src="img/clients/img1.png" alt=""></a>
+          </div>
+          <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+            <a href="#"><img src="img/clients/img2.png" alt=""></a>
+          </div>
+          <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+            <a href="#"><img src="img/clients/img3.png" alt=""></a>
+          </div>
+          <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+            <a href="#"><img src="img/clients/img4.png" alt=""></a>
+          </div>
+          <div class="item wow fadeIn animated">
+            <a href="#"><img src="img/clients/img5.png" alt=""></a>
+          </div>
+          <div class="item wow fadeIn animated">
+            <a href="#"><img src="img/clients/img6.png" alt=""></a>
+          </div>
+          <div class="item wow fadeIn animated">
+            <a href="#"><img src="img/clients/img7.png" alt=""></a>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- /Map -->
+  </section> -->
+  <!-- Clients Section End -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/custom.js"></script>
 
-    <!-- /JavaScript -->
-  </body>
+  <!-- Experience Section Start -->
+  <section id="experience">
+    <div class="container">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>work<br><span>Experience</span></h1>
+        <div class="col-lg-6 col-md-4 col-sm-8 col-xs-12">
+          <div class="blog-large wow fadeInLeft animated"  data-wow-delay="1.2s">
+            <a class="title" href="http://www.clariontechnologies.co.in/"><img src="img/clarion.png" alt="clarion"></a>
+            <div class="large">
+              <br><p>Working as Software Engineer from Feb 2015 at Clarion. Clarion Technologoes is a leader in transforming business through IT. Reinventing outsourcing through our unique engagement model.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.6s">
+          <div class="blog-item">
+            <a class="title" href="http://www.icicletech.com/"><img src="img/icicle.png" alt="icicle"></a>
+            <div class="large">
+              <br><p>Worked as Software Engineer from June 2013 to Feb 2015 at Icicle. Icicle Technologies builds Web & Mobile products for Startups, Brands, Digital Agencies and Enterprises, helping in bringing their ideas to life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section Start -->
+
+
+  <!-- Skills Section Start -->
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+      <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Passionate<br> <span>Skills</span></h1>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle one">
+            <div class="count-info">
+              <h3><span class="counter">70%</span></h3>
+              <h4>RoR</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle two">
+            <div class="count-info">
+              <h3><span class="counter">80%</span></h3>
+              <h4>Git</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle three">
+            <div class="count-info">
+              <h3><span class="counter">50%</span></h3>
+              <h4>CSS</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle four">
+            <div class="count-info">
+              <h3><span class="counter">60%</span></h3>
+              <h4>HTML</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section End -->
+
+  <!-- Blog Section Start -->
+  <section id="blog">
+    <div class="container">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Homey<br><span>Blog</span></h1>
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+          <div class="blog-large wow fadeInLeft animated"  data-wow-delay="1.2s">
+            <img src="img/img1.jpg" alt="">
+            <div class="large">
+              <a class="title" href="https://rohitbhore.wordpress.com/2014/02/10/feature-spec/">Generally we use controller spec, model spec to test our application.</a>
+              <p>What if when you will needs to put everything together? Feature spec is nothing but integration testing...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.6s">
+          <div class="blog-item">
+            <img src="img/ror.jpg" alt="">
+            <div class="content">
+              <a class="title" href="https://rubygems.org/gems/app_reporter">AppReporter:Quality analysis of Rails apps.</a>
+              <p>AppReporter fetch data from the generated application reports through...</p>
+            </div>
+          </div>
+          <div class="blog-item">
+            <img src="img/img3.jpg" alt="">
+            <div class="content">
+              <a class="title" href="https://rubygems.org/gems/app_reporter">AppReporter:Quality analysis of Rails apps.</a>
+              <p>AppReporter fetch data from the generated application reports through...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.8s">
+          <div class="blog-item">
+            <img src="img/img3.jpg" alt="">
+            <div class="content">
+              <a class="title" href="https://rubygems.org/gems/app_reporter">AppReporter:Quality analysis of Rails apps.</a>
+              <p>AppReporter fetch data from the generated application reports through...</p>
+            </div>
+          </div>
+          <div class="blog-item">
+            <img src="img/ror.jpg" alt="">
+            <div class="content">
+              <a class="title" href="https://rubygems.org/gems/app_reporter">AppReporter:Quality analysis of Rails apps.</a>
+              <p>AppReporter fetch data from the generated application reports through...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Blog Section Start -->
+
+  <!-- Feedback Section Start -->
+  <section id="feedback">
+    <div class="container">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s"><span>Hire</span><br>or Contact <br> Me</h1>
+        <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.4s">
+          <form action="" name="contact">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" name="name" class="form-control" placeholder="Your name">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+              <input type="email" name="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-fire"></i></span>
+              <input type="text" name="subject" class="form-control" placeholder="Subject">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-comments"></i></span>
+              <textarea name="message" class="form-control large" placeholder="Massage"></textarea>
+            </div>
+            <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
+          </form>
+        </div>
+        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.4s">
+          <div class="address">
+            <h2>Contact Info</h2>
+            <ul class="contact-info">
+              <li><i class="fa fa-mobile"></i> +91 9766140085</li>
+              <li><i class="fa fa-skype"></i> rohitpbhore</li>
+              <li><i class="fa fa-envelope-o"></i> hello@rohitbhore.com</li>
+            </ul>
+          
+          <h2>Follow Me</h2>
+            <ul class="social-icon">
+              <li><a href="https://www.facebook.com/rohitpbhore"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/rohitbhore"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/profile/view?id=144217268&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://plus.google.com/+RohitBhore"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://github.com/rohitpbhore"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Feedback Section End -->
+
+  <!-- Footer section Start -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="copyright wow fadeInUp animated" data-wow-delay=".8s">
+            <p>Copyright &copy; 2015 Rohit Bhore | All rights reserved.</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+          <div class="scroll-top text-center wow fadeInUp animated" data-wow-delay=".6s">
+            <a href="#header"><i class="fa fa-chevron-circle-up fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <p class="text-center wow fadeInUp animated" data-wow-delay=".8s">Developed By <a href="http://graygrids.com">Rohit Bhore</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer section End -->
+
+  <!-- jQuery Load -->
+  <script src="js/jquery-min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- WOW JS plugin for animation -->
+  <script src="js/wow.js"></script>
+  <!-- All JS plugin Triggers -->
+  <script src="js/main.js"></script>
+  <!-- Smooth scroll -->
+  <script src="js/smooth-scroll.js"></script>
+  <!--  -->
+  <script src="js/jasny-bootstrap.min.js"></script>
+  <!-- Counterup -->
+  <script src="js/jquery.counterup.min.js"></script>
+  <!-- waypoints -->
+  <script src="js/waypoints.min.js"></script>
+  <!-- circle progress -->
+  <script src="js/circle-progress.js"></script>
+  <!-- owl carousel -->
+  <script src="js/owl.carousel.js"></script>
+  <!-- lightbox -->
+  <script src="js/lightbox.min.js"></script>
+
+</body>
 </html>
